@@ -27,8 +27,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Button>Button</Button>
-        {children}
+        {children} {/* dashboard/settings/page.tsx */}
       </body>
     </html>
   );

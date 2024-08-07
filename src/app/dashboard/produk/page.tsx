@@ -1,5 +1,11 @@
+import PageTitle from "@/components/text/page-title";
+
 function page() {
-  return <div>Produk</div>;
+  return (
+    <div>
+      <PageTitle>Produk</PageTitle>
+    </div>
+  );
 }
 
 export default page;

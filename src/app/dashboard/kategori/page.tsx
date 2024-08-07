@@ -1,17 +1,9 @@
-function delayTime(time: number) {
-  return new Promise((resolve: any) =>
-    setTimeout(() => {
-      resolve(["barang 1", "barang 2", "barang 3"]);
-    }, time)
-  );
-}
+import PageTitle from "@/components/text/page-title";
 
 async function page() {
-  const produk = await delayTime(10000);
   return (
     <div>
-      <div>{JSON.stringify(produk)}</div>
-      <div>{JSON.stringify(produk)}</div>
+      <PageTitle>Produk</PageTitle>
     </div>
   );
 }
